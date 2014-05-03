@@ -15,7 +15,7 @@ print s.index(s2)
 # Make a substring
 b = 1
 e = 3
-s2 = s[b : e]
+s2 = s[b:e]
 print s2
 
 # Split a string
