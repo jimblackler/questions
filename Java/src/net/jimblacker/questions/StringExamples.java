@@ -1,5 +1,7 @@
 package net.jimblacker.questions;
 
+import java.util.Arrays;
+
 public class StringExamples {
   public static void main(String[] args) {
 
@@ -22,6 +24,10 @@ public class StringExamples {
     int e = 3;
     s2 = s.substring(b, e);
     System.out.print(s2);
+
+    // Split a string
+    s = "Hello how are you?";
+    System.out.print(Arrays.asList(s.split(" ")));
   }
 
 }
