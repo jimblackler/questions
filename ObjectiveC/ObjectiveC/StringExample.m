@@ -22,5 +22,9 @@ int main(const int argc, char **argv) {
   s2 = [s substringWithRange:NSMakeRange(b, e)];
   NSLog(@"%@\n", s2);
 
+  // Split a string
+  s = @"Hello how are you?";
+  NSLog(@"%@\n", [s componentsSeparatedByString:@" "]);
+
   return 0;
 }
