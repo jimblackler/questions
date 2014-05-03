@@ -22,8 +22,5 @@ int main(int argc, const char * argv[]) {
   s2 = s.substr(b, e);
   std::cout << s2 << std::endl;
 
-  // Split a string
-
-
   return 0;
 }
