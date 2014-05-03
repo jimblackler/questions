@@ -17,13 +17,10 @@ int main(int argc, const char * argv[]) {
   std::cout << s.find(s2) << std::endl;
 
   // Make a substring
-  size_t start = 1;
-  size_t end = 3;
-  s2 = s.substr(start, end);
+  size_t b = 1;
+  size_t e = 3;
+  s2 = s.substr(b, e);
   std::cout << s2 << std::endl;
-
-  // Split a string
-
 
   return 0;
 }
