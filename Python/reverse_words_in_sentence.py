@@ -1,4 +1,4 @@
-sentence = "One small step for a man"
+sentence = "Hello world!"
 
 sentence = " ".join(reversed(sentence.split(" ")))
 
