@@ -4,7 +4,7 @@
 int main(int argc, const char * argv[]) {
 
   // Make a string
-  char *s = "Hello";
+  char s[] = "Hello";
 
   // Find length of a string
   printf("%zu\n", strlen(s));
