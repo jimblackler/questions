@@ -33,9 +33,8 @@
 + (void)reverse:(NSMutableArray *)array
           start:(NSUInteger)s
             end:(NSUInteger)e {
-  while (s < e) {
+  while (s < e)
     [array exchangeObjectAtIndex:s++ withObjectAtIndex:e--];
-  }
 }
 
 + (void)rotate3:(NSMutableArray *)array by:(NSInteger)n {
