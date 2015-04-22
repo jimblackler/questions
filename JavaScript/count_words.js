@@ -1,3 +1,5 @@
+"use strict";
+
 function count_words(sentence) {
   var previous_was_in_word = false;
   var count = 0;

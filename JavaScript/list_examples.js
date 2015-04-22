@@ -1,3 +1,6 @@
+"use strict";
+var l;
+
 // Create a list
 l = [1, 2, 3];
 

@@ -1,3 +1,6 @@
+"use strict";
+var s2;
+
 // Make a string
 var s = "Hello";
 
